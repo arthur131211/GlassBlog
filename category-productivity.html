@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Категория: Продуктивность | GlassBlog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="glass">
+        <div class="header-content container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">✦</div>
+                <span>GlassBlog</span>
+            </a>
+
+            <nav id="main-nav">
+                <a href="index.html">Главная</a>
+                <a href="#login-modal" class="modal-trigger">Обо мне</a>
+            </nav>
+
+            <div class="search-box">
+                <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+                <input type="search" placeholder="Поиск статей...">
+            </div>
+
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Переключить тему">
+                <svg class="theme-icon sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                </svg>
+                <svg class="theme-icon moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="main-grid">
+            <div>
+                <div class="category-header mb-8">
+                    <div class="category-info">
+                        <div class="category-icon">⚡</div>
+                        <div>
+                            <h1>Категория: Продуктивность</h1>
+                            <p class="text-muted">Советы и методы для повышения эффективности и организации работы</p>
+                        </div>
+                    </div>
+                    <div class="articles-count">1 статья</div>
+                </div>
+
+                <div class="articles-grid">
+                    <!-- Статья 1: Продуктивность -->
+                    <a href="article-1.html" class="article-card glass-card">
+                        <div class="image-container">
+                            <img src="https://i.pinimg.com/736x/3f/f6/71/3ff671d4f049ed69a3b4e44ad852430f.jpg" alt="Современное рабочее пространство" class="article-image">
+                        </div>
+                        <div class="article-content">
+                            <span class="badge">Продуктивность</span>
+                            <h2 class="article-title">Современный подход к организации рабочего пространства</h2>
+                            <p class="article-description">Как создать продуктивную и вдохновляющую рабочую среду. Советы по организации пространства, выбору мебели и декора для максимальной эффективности.</p>
+                            <div class="article-meta">
+                                <div class="meta-item">
+                                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                    </svg>
+                                    <span>1 ноября 2025</span>
+                                </div>
+                                <div class="meta-item">
+                                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                    <span>5 мин</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <aside class="sidebar">
+                <div class="sidebar-block glass-card login-block">
+                    <h3>Вы не вошли в аккаунт</h3>
+                    <p>Войдите, чтобы получить доступ ко всем возможностям блога</p>
+                    <a href="#login-modal" class="btn-login modal-trigger">Войти</a>
+                </div>
+
+                <div class="sidebar-block glass-card">
+                    <h3>Популярные статьи</h3>
+                    <div class="popular-posts">
+                        <a href="article-1.html">Современный подход к организации рабочего пространства</a>
+                        <a href="article-4.html">Технологии будущего: что нас ждет в 2026 году</a>
+                        <a href="article-2.html">Путешествие в горы: поиск вдохновения в природе</a>
+                        <a href="article-5.html">Креативные техники для дизайнеров</a>
+                        <a href="article-3.html">Утренние ритуалы успешных людей</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-block glass-card">
+                    <h3>Категории</h3>
+                    <div class="categories">
+                        <a href="index.html" class="category-badge">Все (6)</a>
+                        <a href="category-productivity.html" class="category-badge active">Продуктивность (1)</a>
+                        <a href="category-travel.html" class="category-badge">Путешествия (1)</a>
+                        <a href="category-lifestyle.html" class="category-badge">Лайфстайл (1)</a>
+                        <a href="category-technology.html" class="category-badge">Технологии (1)</a>
+                        <a href="category-design.html" class="category-badge">Дизайн (2)</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="glass">
+        <div class="footer-content container">
+            <p class="footer-text">© 2025 GlassBlog. Все права защищены.</p>
+            <div class="social-links">
+                <a href="https://arthur131211.github.io/Glassblog/" class="social-link glass-card">
+                    <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="#login-modal" class="social-link glass-card modal-trigger">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content glass-strong">
+            <a href="#" class="modal-close">&times;</a>
+            <h1 style="text-align: center; margin-bottom: 2rem;">Войдите в свой аккаунт</h1>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="example@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" placeholder="••••••••">
+                </div>
+                <div class="form-text">
+                    Нет аккаунта? <a href="#register" style="color: #3b82f6;">Зарегистрируйтесь!</a>
+                </div>
+                <button type="submit" class="btn-submit">Войти</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="theme.js"></script>
+</body>
+</html>
